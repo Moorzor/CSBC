@@ -2,11 +2,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Downloads/13-ELK-Stack-Project_Resources_README/README/Images/Cloud Diagram.jpg]
+[Images/Cloud Diagram.jpg]
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YAML file may be used to install only certain pieces of it, such as Filebeat.
 
-  - install-elk.yaml
+  - install-elk.yml
 
 This document contains the following details:
 - Description of the Topologu
@@ -70,7 +70,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[Downloads/13-ELK-Stack-Project_Resources_README/README/Images/Screenshot 2021-03-17 154718]
+[Images/Screenshot 2021-03-17 154718]
 
 
 ### Target Machines & Beats
