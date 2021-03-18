@@ -93,9 +93,7 @@ SSH into the control node and follow the steps below:
 - Update the ansible/hosts file to include the IP address of the ELK server and web servers.
 - Run the playbook, and navigate to http://(your elk public IP):5601/app/kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - The YAML file is the playbook and you copy it into the /etc/ansible/files/filebeat-config.yml directory.
 - You have to update the filebeat-config.yml file to make Ansible run the playbook by specifying which machine it needs to be installed on with the host files and their IP addresses.
 - In order to check to see if the ELK server is running, you need to go to http://(your elk public IP):5601/app/kibana.
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
